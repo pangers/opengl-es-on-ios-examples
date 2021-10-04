@@ -251,6 +251,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = 030FAB28141EF072008CD3D0;
@@ -387,9 +388,11 @@
 		030FAB55141EF073008CD3D0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "OpenGLES_Ch7_2/OpenGLES_Ch7_2-Prefix.pch";
 				INFOPLIST_FILE = "OpenGLES_Ch7_2/OpenGLES_Ch7_2-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -398,9 +401,11 @@
 		030FAB56141EF073008CD3D0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "OpenGLES_Ch7_2/OpenGLES_Ch7_2-Prefix.pch";
 				INFOPLIST_FILE = "OpenGLES_Ch7_2/OpenGLES_Ch7_2-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};

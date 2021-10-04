@@ -5,6 +5,7 @@
 
 #import "UtilityMesh+viewAdditions.h"
 #import "UtilityModelEffect.h"
+#import <OpenGLES/ES2/glext.h>
 
 @implementation UtilityMesh (viewAdditions)
 

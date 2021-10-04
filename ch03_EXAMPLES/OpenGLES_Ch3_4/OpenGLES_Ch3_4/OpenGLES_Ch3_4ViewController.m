@@ -82,25 +82,25 @@ static const SceneVertex vertices[] =
       usage:GL_STATIC_DRAW];
    
    // Setup texture0
-   CGImageRef imageRef0 = 
+   CGImageRef imageRef0 =
       [[UIImage imageNamed:@"leaves.gif"] CGImage];
-      
-   self.textureInfo0 = [GLKTextureLoader 
-      textureWithCGImage:imageRef0 
+
+   self.textureInfo0 = [GLKTextureLoader
+      textureWithCGImage:imageRef0
       options:[NSDictionary dictionaryWithObjectsAndKeys:
-         [NSNumber numberWithBool:YES], 
-         GLKTextureLoaderOriginBottomLeft, nil] 
+         [NSNumber numberWithBool:YES],
+         GLKTextureLoaderOriginBottomLeft, nil]
       error:NULL];
-      
+
    // Setup texture1
-   CGImageRef imageRef1 = 
+   CGImageRef imageRef1 =
       [[UIImage imageNamed:@"beetle.png"] CGImage];
-      
-   self.textureInfo1 = [GLKTextureLoader 
-      textureWithCGImage:imageRef1 
+
+   self.textureInfo1 = [GLKTextureLoader
+      textureWithCGImage:imageRef1
       options:[NSDictionary dictionaryWithObjectsAndKeys:
-         [NSNumber numberWithBool:YES], 
-         GLKTextureLoaderOriginBottomLeft, nil] 
+         [NSNumber numberWithBool:YES],
+         GLKTextureLoaderOriginBottomLeft, nil]
       error:NULL];
 
    // Enable fragment blending with Frame Buffer contents
@@ -138,7 +138,7 @@ static const SceneVertex vertices[] =
       startVertexIndex:0
       numberOfVertices:sizeof(vertices) / sizeof(SceneVertex)];
       
-   self.baseEffect.texture2d0.name = self.textureInfo1.name;
+  self.baseEffect.texture2d0.name = self.textureInfo1.name;
    self.baseEffect.texture2d0.target = self.textureInfo1.target;
    [self.baseEffect prepareToDraw];
 

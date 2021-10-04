@@ -13,6 +13,7 @@
 #import "UtilityModel+viewAdditions.h"
 #import "UtilityCamera.h"
 #import <GLKit/GLKit.h>
+#import <OpenGLES/ES2/glext.h>
 
 @implementation TETerrain (viewAdditions)
 

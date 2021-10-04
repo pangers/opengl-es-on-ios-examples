@@ -4,6 +4,7 @@
 //
 
 #import "UtilityMesh.h"
+#import <OpenGLES/ES2/glext.h>
 
 @interface UtilityMesh ()
 

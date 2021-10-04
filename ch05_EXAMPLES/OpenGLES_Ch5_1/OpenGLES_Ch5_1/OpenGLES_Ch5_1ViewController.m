@@ -101,6 +101,8 @@
       usage:GL_STATIC_DRAW]; 
 
    [((AGLKContext *)view.context) enable:GL_DEPTH_TEST];
+  
+  NSLog(@"%lu", sizeof(sphereTexCoords)/sizeof(sphereTexCoords[0]));
 }
 
 

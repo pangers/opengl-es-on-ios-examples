@@ -4,6 +4,7 @@
 //
 
 #import "AGLKSkyboxEffect.h"
+#import <OpenGLES/ES2/glext.h>
 
 /////////////////////////////////////////////////////////////////
 // Cube has 2 triangles x 6 sides + 2 for strip = 14

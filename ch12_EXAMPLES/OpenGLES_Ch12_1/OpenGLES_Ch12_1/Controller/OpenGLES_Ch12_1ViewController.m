@@ -18,6 +18,7 @@
 #import "UtilityCamera.h"
 #import "UtilityBillboardParticleManager+viewAdditions.h"
 #import <CoreMotion/CoreMotion.h>
+#import <OpenGLES/ES2/glext.h>
 
 @class UtilityTextureInfo;
 

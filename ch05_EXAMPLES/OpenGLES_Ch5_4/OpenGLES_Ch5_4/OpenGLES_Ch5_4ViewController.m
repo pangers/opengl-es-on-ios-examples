@@ -200,7 +200,7 @@ static GLKMatrix4 SceneMatrixForTransform(
    
    // Change the light color
    self.baseEffect.light0.diffuseColor = GLKVector4Make(
-      1.0f, // Red 
+      0.0f, // Red
       1.0f, // Green 
       0.0f, // Blue 
       0.3f);// Alpha 

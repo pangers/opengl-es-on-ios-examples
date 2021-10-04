@@ -8,6 +8,7 @@
 #import "UtilityModel+viewAdditions.h"
 #import "UtilityModelManager.h"
 #import "UtilityTextureInfo+viewAdditions.h"
+#import <OpenGLES/ES2/glext.h>
 
 @interface OpenGLES_Ch8_1ViewController ()
 
